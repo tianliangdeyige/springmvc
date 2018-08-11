@@ -21,7 +21,7 @@ public class ItemController {
         itemList.add(new Item(3,"imac2", 20000, new Date(), "苹果本很贵"));
         itemList.add(new Item(4,"imac3", 20000, new Date(), "苹果本很贵"));
         itemList.add(new Item(5,"imac4", 20000, new Date(), "苹果本很贵"));
-        //把商品列表传递给jsp
+        //把商品列表传递给jsp是 多少多少
         ModelAndView modelAndView = new ModelAndView();
         modelAndView.addObject("itemList", itemList);
         //设置展示数据的jsp
